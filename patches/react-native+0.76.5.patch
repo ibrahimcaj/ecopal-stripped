@@ -1,0 +1,12 @@
+diff --git a/node_modules/react-native/Libraries/ReactNative/AppRegistry.js b/node_modules/react-native/Libraries/ReactNative/AppRegistry.js
+index 9448296..5fa2959 100644
+--- a/node_modules/react-native/Libraries/ReactNative/AppRegistry.js
++++ b/node_modules/react-native/Libraries/ReactNative/AppRegistry.js
+@@ -303,6 +303,7 @@ const AppRegistry = {
+       }
+       return;
+     }
++    if (typeof taskProvider() === 'object') return;
+     taskProvider()(data)
+       .then(() => {
+         if (NativeHeadlessJsTaskSupport) {

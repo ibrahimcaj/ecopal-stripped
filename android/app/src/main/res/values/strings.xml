@@ -1,0 +1,8 @@
+<resources>
+  <string name="app_name">EcoPal</string>
+  <string name="expo_splash_screen_resize_mode" translatable="false">contain</string>
+  <string name="expo_splash_screen_status_bar_translucent" translatable="false">false</string>
+  <string name="rntp_temporary_channel_id">temporary_channel</string>
+  <string name="rntp_temporary_channel_name">temporary_channel</string>
+  <string name="playback_channel_name">Music Player</string>
+</resources>
